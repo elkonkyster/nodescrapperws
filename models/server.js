@@ -20,7 +20,7 @@ class Server {
 
     listen(){
         this.app.listen(this.port, ()=>{
-            console.log('SERVER RUNNING ON PORT', process.env.PORT)
+            console.log('SERVER RUNNING ON PORT', this.port)
         })
     }
 }
